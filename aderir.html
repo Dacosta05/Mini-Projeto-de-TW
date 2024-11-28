@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aderir - Nike</title>
+    <link rel="stylesheet" href="aderir.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <a href="index.html">
+                <img src="img/logo1.png" alt="Nike Logo" class="logo">
+            </a>
+            <ul>
+                <li><a href="lojas.html">Lojas</a></li>
+                <li><a href="ajuda.html">Ajuda</a></li>
+                <li><a href="aderir.html">Aderir</a></li>
+                <li><a href="login.html">Iniciar Sessão</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <div class="main-content">
+        <div class="content">
+            <h1>Inscreva-se na Nike</h1>
+            <p>Crie uma conta para aproveitar ofertas exclusivas e muito mais.</p>
+
+            <form action="sucesso.html" method="POST">
+                <input type="text" name="nome" placeholder="Nome completo" required>
+                <input type="email" name="email" placeholder="E-mail" required>
+                <input type="password" name="senha" placeholder="Senha" required>
+                <input type="password" name="confirmar_senha" placeholder="Confirmar Senha" required>
+                <button type="submit">Cadastrar</button>
+            </form>
+
+            <p class="login-link">Já tem uma conta? <a href="login.html">Iniciar Sessão</a></p>
+        </div>
+    </div>
+</body>
+</html>
